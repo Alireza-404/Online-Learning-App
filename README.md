@@ -33,14 +33,14 @@ and an engaging **404 page animated with Particles.js**.
 
 ## 🧰 Tech Stack
 
-| Category       | Technology               |
-| -------------- | ------------------------ |
-| **Framework**  | React (TypeScript / TSX) |
-| **Styling**    | Tailwind CSS             |
-| **Validation** | Regex (JavaScript)       |
-| **Animation**  | Particles.js             |
-| **Storage**    | localStorage             |
-| **Build Tool** | Vite (if used)           |
+| Category       | Technology                  |
+| -------------- | --------------------------- |
+| **Framework**  | React (TypeScript / TSX)    |
+| **Styling**    | Tailwind CSS                |
+| **Validation** | Regex (JavaScript)          |
+| **Animation**  | Particles.js, Framer-Motion |
+| **Storage**    | localStorage                |
+| **Build Tool** | Vite (if used)              |
 
 ---
 
