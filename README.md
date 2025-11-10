@@ -1,69 +1,135 @@
-# React + TypeScript + Vite
+# 🎓 Online Learning App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **mobile-only Online Learning App** built with **React (TypeScript)**, **Tailwind CSS**, and **JavaScript**.  
+This project simulates a learning platform where users can **register, log in, and explore demo video lessons**.  
+It focuses on **mobile-first design**, **clean UI**, and a **persistent theme system** stored in localStorage.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Overview
 
-## Expanding the ESLint configuration
+This app is designed **exclusively for mobile devices** 📱.  
+It features 4 core pages — **Home**, **Courses**, **Messages**, and **Account** —  
+alongside a sleek dark/light theme system, login and signup forms validated by **Regex**,  
+and an engaging **404 page animated with Particles.js**.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+> The goal of this project is to demonstrate a mobile learning concept with React and TypeScript, focusing on smooth UX, responsive UI, and modular code structure.
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## 🧠 Key Features
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- 📱 **Mobile-Only Design** – optimized for smartphones only
+- 🌓 **Dark / Light Mode** – stored in localStorage for persistent theme
+- ✅ **Regex Validation** – ensures valid email/password patterns
+- 🔐 **Login / Register System** – works locally without backend
+- 🎥 **Short Demo Videos** – watch 5-second sample lessons
+- ⚙️ **Settings & Privacy Panel** – toggle theme directly from Account page
+- 🚫 **Custom 404 Page** – animated using Particles.js
+- 💾 **Local Storage Support** – saves theme preference
+- 💡 **Built with TypeScript (TSX)** for better structure and type safety
+
+---
+
+## 🧰 Tech Stack
+
+| Category       | Technology               |
+| -------------- | ------------------------ |
+| **Framework**  | React (TypeScript / TSX) |
+| **Styling**    | Tailwind CSS             |
+| **Validation** | Regex (JavaScript)       |
+| **Animation**  | Particles.js             |
+| **Storage**    | localStorage             |
+| **Build Tool** | Vite (if used)           |
+
+---
+
+## 🧭 Project Structure
+
+```
+Online-Learning-App/
+│
+├── public/
+│ ├── Fonts/
+│ ├── Images/
+│ └── Videos/
+│
+├── src/
+│ ├── assets/
+│ ├── Components/
+│ ├── Pages/
+│ │ ├── AccountOptionsPage.tsx
+│ │ ├── AccountPage.tsx
+│ │ ├── CoursePgae.tsx
+│ │ ├── HomePage.tsx
+│ │ ├── NotFoundPage.tsx
+│ │ ├── NotificationsPage.tsx
+│ │ └── VideoPage.tsx
+│ ├── ParticlesLibrary/
+│ ├── Redux/
+│ │ ├── Slices/
+│ │ └── Store.ts
+│ ├── Utils/
+│ │ ├── PersianPhoneNumber.ts
+│ │ └── ToPersianNumber.ts
+│ ├── App.tsx
+│ └── main.tsx
+│
+├── package.json
+├── tsconfig.json
+├── tailwind.config.js
+├── vite.config.ts
+└── README.md
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## ⚡ Getting Started
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/Alireza-404/Online-Learning-App.git
 ```
+
+### 2️⃣ Install dependencies
+
+```bash
+npm install
+```
+
+### 3️⃣ Run the project locally
+
+```bash
+npm run dev
+```
+
+Now open your browser at **http://localhost:5173** (or the port shown in the console).
+
+---
+
+## 🧩 How It Works
+
+- Regex validation ensures that the entered email and password are in valid format.
+- The login and register pages simulate authentication without a real backend.
+- Dark/light mode can be toggled from the Account → Settings → Privacy section.
+- Theme preference is saved to localStorage, persisting after refresh.
+- The Courses page contains clickable demo lessons with short videos.
+- 404 page is interactive and rendered using Particles.js for a futuristic touch.
+- TypeScript is used for stronger typing and cleaner component architecture.
+
+---
+
+## 💬 About Me
+
+👋 Hi, I'm Alireza, a Front-End Developer who loves building clean, fast, and user-friendly web interfaces.
+I focus on React, TypeScript, and modern front-end practices — always improving and learning new things.
+
+If you liked this project, don’t forget to ⭐ star the repo or connect with me! 🙌
+
+---
+
+## 📫 Contact
+
+- GitHub: [Alireza-404](https://github.com/Alireza-404)
+- Email: [alireza4o4shabani@gmail.com]
