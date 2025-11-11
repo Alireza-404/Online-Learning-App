@@ -250,7 +250,7 @@ const VideoPage = () => {
 
                   <div className="relative w-fit mt-20 z-20">
                     <img
-                      src="../public/Images/VideoPageImages/Arrow.png"
+                      src="/Images/VideoPageImages/Arrow.png"
                       alt="Arrow-Image"
                       className="rotate-180"
                     />
@@ -268,13 +268,13 @@ const VideoPage = () => {
                   </p>
 
                   <img
-                    src="../public/Images/VideoPageImages/PaperRocket.png"
+                    src="/Images/VideoPageImages/PaperRocket.png"
                     alt="Paper-Rocket"
                     className="absolute top-1/2 -translate-y-1/2 z-0"
                   />
 
                   <img
-                    src="../public/Images/VideoPageImages/HeaderImage.png"
+                    src="/Images/VideoPageImages/HeaderImage.png"
                     alt="Paper-Rocket"
                     className="absolute bottom-0 left-7"
                   />

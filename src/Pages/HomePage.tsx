@@ -62,7 +62,7 @@ const HomePage = () => {
                     </div>
 
                     <img
-                      src="./public/Images/HomeImages/Avatar.png"
+                      src="/Images/HomeImages/Avatar.png"
                       alt="Avatar-For-User"
                     />
                   </div>
@@ -107,7 +107,7 @@ const HomePage = () => {
                 >
                   <div className="relative flex-shrink-0">
                     <img
-                      src="./public/Images/HomeImages/SlideImage.png"
+                      src="/Images/HomeImages/SlideImage.png"
                       alt="Slide-Image-1"
                       draggable={false}
                     />
@@ -124,7 +124,7 @@ const HomePage = () => {
                   </div>
 
                   <img
-                    src="./public/Images/HomeImages/SlideImage.png"
+                    src="/Images/HomeImages/SlideImage.png"
                     alt="Slide-Image-2"
                     draggable={false}
                   />
@@ -164,30 +164,30 @@ const HomePage = () => {
                 relative"
                 >
                   <img
-                    src="./public/Images/HomeImages/HomeEndImages/Ellipse_75.png"
+                    src="/Images/HomeImages/HomeEndImages/Ellipse_75.png"
                     alt="Ellips-Image"
                     className="absolute left-5 top-1/2 -translate-y-1/2"
                   />
                   <img
-                    src="./public/Images/HomeImages/HomeEndImages/Ellipse_76.png"
+                    src="/Images/HomeImages/HomeEndImages/Ellipse_76.png"
                     alt="Ellips-Image"
                     className="absolute left-8 top-1/2 -translate-y-1/2"
                   />
 
                   <img
-                    src="./public/Images/HomeImages/HomeEndImages/Avatar-1.png"
+                    src="/Images/HomeImages/HomeEndImages/Avatar-1.png"
                     alt="Avatar-Image-1"
                     className="absolute left-10 top-5"
                   />
 
                   <img
-                    src="./public/Images/HomeImages/HomeEndImages/Avatar-2.png"
+                    src="/Images/HomeImages/HomeEndImages/Avatar-2.png"
                     alt="Avatar-Image-2"
                     className="absolute left-8 top-[50px]"
                   />
 
                   <img
-                    src="./public/Images/HomeImages/HomeEndImages/Avatar-3.png"
+                    src="/Images/HomeImages/HomeEndImages/Avatar-3.png"
                     alt="Avatar-Image-3"
                     className="absolute left-[68px] top-12"
                   />

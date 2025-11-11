@@ -31,7 +31,7 @@ const WelcomeScreen = () => {
         <SwiperSlide>
           <div className="flex flex-col items-center gap-y-10 mb-20">
             <img
-              src="./public/Images/WelcomeImages/W_Image1.png"
+              src="/Images/WelcomeImages/W_Image1.png"
               alt="Welcome Image 1"
               loading="lazy"
               className="w-[260px] h-[260px] flex-shrink-0"
@@ -50,7 +50,7 @@ const WelcomeScreen = () => {
         <SwiperSlide>
           <div className="flex flex-col items-center gap-y-10 mb-20">
             <img
-              src="./public/Images/WelcomeImages/W_Image2.png"
+              src="/Images/WelcomeImages/W_Image2.png"
               alt="Welcome Image 2"
               loading="lazy"
               className="w-[260px] h-[260px] flex-shrink-0"
@@ -70,7 +70,7 @@ const WelcomeScreen = () => {
         <SwiperSlide>
           <div className="flex flex-col items-center gap-y-10 mb-20">
             <img
-              src="./public/Images/WelcomeImages/W_Image3.png"
+              src="/Images/WelcomeImages/W_Image3.png"
               alt="Welcome Image 3"
               loading="lazy"
               className="w-[260px] h-[260px] flex-shrink-0"

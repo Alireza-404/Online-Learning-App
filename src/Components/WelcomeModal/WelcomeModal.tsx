@@ -13,7 +13,7 @@ const WelcomeModal = () => {
       >
         <div className="flex flex-col items-center gap-y-2">
           <img
-            src="./public/Images/CircleCheckImage/CircleCheckImage.png"
+            src="/Images/CircleCheckImage/CircleCheckImage.png"
             alt="Circle-Check-Image"
             className="w-16 h-16"
           />

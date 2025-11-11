@@ -39,7 +39,7 @@ const PhoneScreen = () => {
         </div>
 
         <img
-          src="./public/Images/PhoneImage/PhoneImage.png"
+          src="/Images/PhoneImage/PhoneImage.png"
           alt="Phone-Image"
           loading="lazy"
           className="h-32 w-32 mx-auto"

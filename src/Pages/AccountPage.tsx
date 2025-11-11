@@ -21,7 +21,7 @@ const AccountPage = () => {
               </p>
 
               <img
-                src="../public/Images/AccountPageImages/Avatar.png"
+                src="/Images/AccountPageImages/Avatar.png"
                 alt="Avatar-Image"
                 className="block mx-auto mt-6"
               />

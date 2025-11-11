@@ -52,7 +52,7 @@ const CoursePage = () => {
                     </p>
 
                     <img
-                      src="./public/Images/CourseImages/Avatar.png"
+                      src="/Images/CourseImages/Avatar.png"
                       alt="Course-Page-Avatar"
                     />
                   </div>
@@ -96,7 +96,7 @@ const CoursePage = () => {
                   <div className="grid grid-cols-2 gap-x-4 mt-0.5">
                     <div className="bg-[#CEECFE] h-24 rounded-xl relative">
                       <img
-                        src="./public/Images/CourseImages/RightSectionImage.png"
+                        src="/Images/CourseImages/RightSectionImage.png"
                         alt="Right-Section-Image"
                         className="absolute left-1 bottom-0"
                       />
@@ -111,7 +111,7 @@ const CoursePage = () => {
 
                     <div className="bg-[#EFE0FF] h-24 rounded-xl relative">
                       <img
-                        src="./public/Images/CourseImages/LeftSectionImage.png"
+                        src="/Images/CourseImages/LeftSectionImage.png"
                         alt="Left-Section-Image"
                         className="absolute left-0 bottom-0"
                       />
