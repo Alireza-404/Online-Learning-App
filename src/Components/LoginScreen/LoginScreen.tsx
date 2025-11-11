@@ -193,12 +193,12 @@ const LoginScreen = () => {
 
         <div className="flex justify-center items-center gap-x-10">
           <img
-            src="./public/Images/Logos/FaceBookLogo.png"
+            src="/Images/Logos/FaceBookLogo.png"
             alt="FaceBook-Logo"
             className="w-9 h-9"
           />
           <img
-            src="./public/Images/Logos/GoogleLogo.png"
+            src="/Images/Logos/GoogleLogo.png"
             alt="Google-Logo"
             className="w-12 h-12"
           />
